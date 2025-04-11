@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Services - Toroni Events</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fefcea, #f1da36);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+    header {
+      background-color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header img {
+      height: 80px;
+    }
+    nav {
+      background-color: #222;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 30px;
+      font-size: 36px;
+      color: #333;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .service-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+    .service-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .service-card h3 {
+      font-size: 22px;
+      margin: 15px 0;
+      color: #444;
+    }
+    .service-card p {
+      padding: 0 15px 20px;
+      font-size: 15px;
+      color: #555;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="img/t.jpg" alt="Toroni Events Logo">
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="login.php">Login</a>
+    <a href="signup.php">Sign Up</a>
+    <a href="events.php">Events</a>
+    <a href="review.php">Review</a>
+    <a href="services.html">Services</a>
+  </nav>
+
+  <div class="container">
+    <h1>Our Event Services</h1>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="img/DRINKS.jpeg" alt="Drinks">
+        <h3>Drinks</h3>
+        <p>Refreshing beverages and mocktails to keep your guests happy and hydrated.</p>
+      </div>
+      <div class="service-card">
+        <img src="img/food.jpg" alt="Food">
+        <h3>Food</h3>
+        <p>Delicious catering with custom menus from Indian, Continental, and more.</p>
+      </div>
+      <div class="service-card">
+        <img src="img/eventscom_cover.jpeg" alt="Themes">
+        <h3>Party Themes</h3>
+        <p>Choose from classic, modern, Bollywood, neon, retro, or custom themes.</p>
+      </div>
+      <div class="service-card">
+        <img src="img/dj.jpg" alt="Music">
+        <h3>Music & DJ</h3>
+        <p>Top DJs and sound systems for the best vibe at your events.</p>
+      </div>
+      <div class="service-card">
+        <img src="img/decorate.webp" alt="Decoration">
+        <h3>Decor & Setup</h3>
+        <p>Gorgeous decor, lighting, and stage setups tailored to your occasion.</p>
+      </div>
+      <div class="service-card">
+        <img src="img/photo.jpg" alt="Photography">
+        <h3>Photography</h3>
+        <p>Professional photographers and videographers to capture every moment.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Toroni Events. All rights reserved.
+  </footer>
+
+</body>
+</html>
